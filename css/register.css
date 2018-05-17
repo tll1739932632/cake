@@ -1,4 +1,4 @@
-body{
+/*body{
             color: gray;
         }
     a{
@@ -11,17 +11,8 @@ body{
         color: rgb(176, 145, 106)!important;
     }
 
-     #content>ul>li{
-     float: left!important;
-     padding-left: 180px;
-     height: 150px;
-    }
-    #content{
-         height: 200px;
-         line-height: 30px; 
-         margin:50px 50px 30px 50px;
-         text-align: center;
-    }
+
+
      .dropdown-menu {
          border: 1px solid white;
          opacity: 0.8;
@@ -46,7 +37,7 @@ body{
         cursor: auto;
         display: block;
         text-align: center;
-    }
+    }*/
 
 
     .footr{

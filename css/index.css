@@ -4,8 +4,8 @@
         }
     a{
         font-family: 微软雅黑; 
-        color: gray!important ;
-        text-decoration: none!important;
+        color: gray ;
+        text-decoration: none;
         
     }
 
@@ -74,11 +74,11 @@
        }
 
 
-    #content>ul>li{
+    /*#content>ul>li{
      float: left!important;
      padding-left: 180px;
      height: 150px;
-    }
+    }*/
 
     #content{
          height: 200px;
@@ -166,8 +166,12 @@
     z-index: 1;
     /*border: 1px solid gray;*/
     text-align: center;
-    background-color: white;   
+    background-color: saddlebrown;   
     
+}
+
+.rgt a{
+    color: white;
 }
 
 .rgt li:first-child{
@@ -182,4 +186,31 @@
 
 .rgt li:last-child{
     background-color: rgb(176, 145, 106);
+}
+
+#content ul li.list{
+    display: inline-block;
+    margin-left: 50px;
+}
+#content ul li.list:nth-child(2){
+    border-left: solid gray 0.5px;
+    padding-left: 50px;
+}
+
+#content ul>li.list li{
+  list-style-type: none;
+}
+
+#content ul li.list ul{
+    margin: 0;
+    padding:  0;
+}
+#content ul{
+    
+    margin: 0;
+    padding:  0;
+}
+.footer{
+    border-top: solid 0.5px #e7e7e7;
+    background: #f8f8f8;
 }

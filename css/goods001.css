@@ -1,4 +1,4 @@
-body{
+/*body{
         font-family: 微软雅黑;
         color: gray;
     }
@@ -72,7 +72,7 @@ body{
         cursor: auto;
         display: block;
         text-align: center;
-    }
+    }*/
 
     .small_img{
         float: left;
