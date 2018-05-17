@@ -1,0 +1,92 @@
+body{
+        color: gray;
+    }
+
+    a{
+        font-family: 微软雅黑;
+        color: gray!important ;
+        text-decoration: none!important;
+    }
+
+    a:hover{
+        color: rgb(176, 145, 106)!important;
+        
+
+    }
+
+     #content>ul>li{
+     float: left!important;
+     padding-left: 180px;
+     height: 150px;
+    }
+    #content{
+         height: 200px;
+         line-height: 30px; 
+         margin:50px 50px 30px 50px;
+         text-align: center;
+    }
+     .dropdown-menu {
+         border: 1px solid white;
+         opacity: 0.8;
+         
+     }
+     .dropdown-menu li a{
+         font-weight: bold;
+     }  
+
+    .navbar {
+        margin-bottom: 10px!important;
+        
+    }
+    
+    #class>li{
+        width: 150px;
+        text-align: center;
+        font-size: 14px;
+        border-top: solid 1px #D9D9D9;
+    }
+    samp{
+        cursor: auto;
+        display: block;
+        text-align: center;
+    }
+    .over img{
+        border-bottom: 3px solid white;
+    }
+
+    .over img:hover{
+        border-bottom: 3px solid gray;
+    }
+
+
+    .login{
+        float: left!important;
+        height: 450px!important;
+    }
+
+    .footr{
+        background-color: rgb(242, 246, 247);
+        padding-top: 50px;
+    }
+
+    .btn{
+        display: block!important;
+        width: 100px;
+        background-color: rgb(176, 145, 106);
+        color: white;
+
+    }
+
+   .has-warning{
+        width: 200px;
+        display: inline-block!important;
+        
+    }
+    .form-control{
+        width: 200px;
+        height: 30px;
+        background-color: rgb(240, 240, 240);
+        font-size: 16px;
+        border-radius: 0;
+        border: 0;        
+    }

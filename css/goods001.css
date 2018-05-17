@@ -1,0 +1,140 @@
+body{
+        font-family: 微软雅黑;
+        color: gray;
+    }
+    
+    a{
+        font-family: 微软雅黑; 
+        color: gray!important ;
+        text-decoration: none!important;
+        
+    }
+
+    a:hover{
+        color: rgb(176, 145, 106)!important;
+        
+
+    }
+        #class>li{
+            border-bottom: 1px solid white;
+        }
+        #class>li:hover{
+            border-bottom: 1px solid gray;
+        }
+
+     .dropdown-menu {
+         border: 1px solid white;
+         opacity: 0.8;
+         
+     }
+     .dropdown-menu li a{
+         font-weight: bold;
+     }
+     #content>ul>li{
+     float: left!important;
+     padding-left: 180px;
+     height: 150px;
+    }
+
+    #content{
+         height: 200px;
+         line-height: 30px; 
+         margin:50px 50px 30px 50px;
+         text-align: center;
+    }
+    .footr{
+        background-color: rgb(242, 246, 247);
+        padding-top: 50px;
+    }
+
+    
+
+    .over img{
+        border-bottom: 3px solid white;
+    }
+
+    .over img:hover{
+        border-bottom: 3px solid gray;
+    }
+    .navbar {
+        margin-bottom: 0px!important;
+        
+        
+    }
+    
+    #class>li{
+        width: 150px;
+        text-align: center;
+        font-size: 14px;
+        border-top: solid 1px #D9D9D9;
+    }
+    samp{
+        cursor: auto;
+        display: block;
+        text-align: center;
+    }
+
+    .small_img{
+        float: left;
+        width: 110px;
+    }
+    .small_img img{
+        border: 1px solid rgb(176, 145, 106);
+        margin: 10px;
+        
+    }
+    .big_img{
+        margin: 10px;
+        float: left;
+        width: 480px;
+        border-left: 10px solid white;
+        position: relative;
+        
+        
+    }
+    .text_box{
+        margin: 10px;
+        float: left;
+        width: 500px;
+        
+    }
+
+	.big_img div{
+		text-align: justify;
+		display: none;
+		width: 100%;
+	}
+
+	.big_img #div1{
+		display: block;
+	}
+    .btn{
+        width: 150px;
+        background-color: rgb(176, 145, 106);
+        margin: 5px;
+        margin-top: 20px;
+        height: 30px;
+        color: white;
+    }
+
+    .down{
+        
+        clear: both; 
+    }
+    .down_one{
+        width: 600px;
+        height: 100px;
+        text-align: justify;
+       margin: 20px auto;
+       color:rgb(176, 145, 106); 
+       border-radius: 20px;
+       font-size: 12px;
+       line-height: 20px;
+       padding: 10px;
+       border-bottom: 1px solid rgb(176, 145, 106);  
+    }
+
+    .down_two{
+        width: 450px;
+        margin: 20px auto;
+    }

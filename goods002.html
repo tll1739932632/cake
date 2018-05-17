@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>goods002</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/goods002.css">
+    
+    <script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+    <!--从这里开始是菜单栏-->
+    <div class="navbar navbar-static-top">
+    <div class="navbar navbar-default">
+        <div class="container">
+            <!--这里是logo-->
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#navdiv">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>
+            </div>
+            <!--这里是提示小菜单-->
+            <div id="navdiv" class="collapse navbar-collapse">
+                <ul class="list-inline list-unstyled text-right">
+                    <li><a href="login.html">登录/注册</a></li>
+                    <li><a href="shopping car.html"><img src="img/shop.png" alt="">购物车
+                        <span class="badeg">(0)</span>
+                        </a></li>
+                    <li><a href="login.html">会员中心</a></li>
+                    
+                </ul>
+                
+
+                <ul id="class" class="nav navbar-nav" >
+                    <li><a href="index.html" >
+                        <samp>Index</samp>首页</a></li>
+                    <li><a href="#" target="_blank">
+                        <samp>Nos Produits</samp>
+                        全部产品
+                        </a></li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown">
+                            <samp>Napoléon</samp>
+                            拿破仑系列
+                            <span class="caret"></span>
+                            </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">经典拿破仑</a> </li>
+                            <li><a href="#">风梨拿破仑</a> </li>
+                            <li><a href="#">五味拿破仑</a> </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown">
+                            <samp>Latest Events</samp>
+                            最新活动
+                            <span class="caret"></span>   
+                        </a>
+                         <ul class="dropdown-menu">
+                            <li><a href="#"> 满减折扣</a> </li>
+                            <li><a href="#"> 新品优惠</a> </li>
+                        </ul>
+                        
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown">
+                            <samp>Service Hotline</samp>
+                            服务热线
+                            <span class="caret"></span> 
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">城市服务热线</a> </li>
+                            <li><a href="#">全国连锁服务热线</a> </li>
+                        </ul>
+                    </li>
+                    
+
+                </ul>   
+            </div>
+          </div>
+        </div>      
+    </div>
+    <!--从这里结束是导航栏-->
+
+    <!--这里是主要内容-->
+    <script>
+		$(document).ready(function(){
+
+			$(".small_img a").click(function(e){   
+				$(".active").removeClass("active");
+				$().addClass("active");	
+				e.preventDefault();//阻止默认事件
+				$(".big_img div").fadeOut(0); 
+				var divID=$(this).attr("href");
+				$(divID).fadeIn(0);
+			});
+		})
+	</script>
+    <div class="container">
+
+        
+        <div class="view_img">
+            <div class="small_img">
+                    <ul class="list-unstyled">
+                    <li><a class="active" href="#div1"><img src="img/smal01.jpg" alt=""></a></li>
+                    <li><a href="#div2"><img src="img/small_2.jpg" alt=""></a></li>
+                    <li><a href="#div3"><img src="img/small_3.jpg" alt=""></a></li>
+                    </ul>
+            </div>
+                
+
+                
+            <div class="big_img">
+                    <ul class="list-unstyled">
+                    <li>
+                        <div id="div1">
+                        <img src="img/big_1.jpg" alt="">
+                        <p>Dans une cuillère, s’épanouit une saveur à la crème glace vanille et une saveur de glace au fromage.
+                             De glace délicate, lisse impétueux. Comme l'Antarctique rencontrent l'Arctique, vous vous met dans 
+                             les contes de fées.</p>
+                        <p>一匙之间，绽放芝士冰淇淋与香草冰淇淋的双重美味，冰爽细腻，抚平浮躁。宛若南极遇见北极，置身冰雪童话。</p>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div id="div2">
+                        <img src="img/big_2.jpg" alt="">
+                        <p>>Dans une cuillère, s’épanouit une saveur à la crème glace vanille et une saveur de glace au fromage.
+                             De glace délicate, lisse impétueux. Comme l'Antarctique rencontrent l'Arctique, vous vous met dans 
+                             les contes de fées.</p>
+                        <p>一匙轻动，进入仲夏夜的梦境，小小的珍珠向你诉说夏天的秘密。夏夜的甜蜜由此开启。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="div3">
+                        <img src="img/big_3.jpg" alt="">
+                        <p>>Dans une cuillère, s’épanouit une saveur à la crème glace vanille et une saveur de glace au fromage.
+                             De glace délicate, lisse impétueux. Comme l'Antarctique rencontrent l'Arctique, vous vous met dans 
+                             les contes de fées.</p>
+                        <p>一匙轻动，进入仲夏夜的梦境，小小的珍珠向你诉说夏天的秘密。夏夜的甜蜜由此开启。</p>
+                        </div>
+                    </li>
+                    </ul>
+            </div>
+
+            <div class="text_box">
+                <ul class="list-unstyled">
+                    <li><b class="h3">Luke et dondon</b>卢克和咚咚冰淇淋蛋糕</li>
+                    <li><hr></li>
+                    <li><b style="color: rgb(176, 145, 106);" class="h3">￥298.00</b></li>
+                    <li>
+                        <br><br>
+                        <div style="background:url(img/ok.png) no-repeat;width: 50px;height: 50px;">2磅</div>
+                    </li>
+                    <li><small>适合4-7人食用 SIZE:17.5cm*4.6cm</small></li>
+                    <li><small>需提前5小时预定</small></li>
+                    <li><small class="text-danger">若不及时食用，请放置冰箱冷冻室储存</small></li>
+                    <li><br><img src="img/cc.png" alt=""></li>
+                    <li><button class="btn">加入购物车</button><button class="btn">立即购买</button></li>
+                    <li><hr></li>
+                    <li>
+                        <div style="width: 150px;text-align: center;border-bottom: 2px solid gray">
+                            <samp>Best Ingredient</samp>优质原材料</div>
+                    </li>
+                    <li><br><img src="img/gg.png" alt=""></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="down">
+            <br><br><br><br><br>
+            <div class="down_one">
+                <h1 style="display: block;float: left;margin: 0 0 0 30px;"><img src="img/2014001.png" alt=""></h1>
+                <p>Quel aventure qu’on aura au bout du monde? Luke, un ours polaire et dondon, un pingouin, 
+                    vont vous acompagner, passaient un été adorable.  <br>
+                世界尽头，会有怎样的奇遇？让北极熊卢克和小企鹅大咚小咚陪伴你，冰凉沁爽，爱上夏天。</p>
+            </div>
+            <p style="border: 1px solid rgb(176, 145, 106);"></p>
+
+            <div class="down_two"><img src="img/big_4.jpg" alt=""></div>
+        </div>
+
+    </div>
+    <!--这里结束-->
+
+
+    <!--这里是脚部内容-->
+        <div class="footer">
+        <div class="over">
+           <div class="container">
+            <div class="col-md-4 col-sm-6"><img  src="img/xiao1.jpg" alt=""></div>
+            <div class="col-md-4 col-sm-6"><img src="img/xiao2.jpg" alt=""></div>
+            <div class="col-md-4 col-sm-6"><img src="img/xiao3.jpg" alt=""></div>
+            </div>
+        </div>
+    
+            <div id="content">
+                <ul class="list-unstyled">
+                    <li style="border-right: 1px solid gray;padding-right: 150px;">
+                     <ul class="list-unstyled">
+                        <li><a href="">客服热线：4006-678-678（8:00 - 22:00）</a></li>
+                        <li><a href="">客服邮箱：cs@mcake.com </a></li>
+                        <li><a href="">地址：贵阳市贵安新区高端装备制造产业园</a></li>
+                    </ul>
+                    </li>
+
+            <li><a href="#"><b>发现</b></a>
+                  <ul class="list-unstyled">
+                        <li><a href="#">公告</a></li>
+                        <li><a href="#">微博</a> </li>
+                    </ul>
+            </li>
+            <li><a href="#"><b>关于我们</b></a>
+                <ul class="list-unstyled">
+                        <li><a href="#">媒体合作</a></li>
+                        <li><a href="#">招贤人才</a> </li>
+                        <li><a href="#">呼叫中心</a> </li>
+                    </ul>
+            </li>
+            <li><a href="#"><b>帮助中心</b></a>
+                    <ul class="list-unstyled">
+                        <li><a href="#">投诉与建议</a></li>
+                        <li><a href="#">会员权益</a> </li>
+                        <li><a href="#">购物指南</a> </li>
+                        <li><a href="#">订单相关</a> </li>
+                    </ul>
+            </li>
+        </ul>
+    
+    
+    
+    </div>
+    <p class="text-center" style="clear: both;">Copyright © 2012-2017 贵阳市暖心糕点制作有限公司 版权所有 沪ICP备12022075号 </p>
+
+    </div>
+    
+</body>
+</html>

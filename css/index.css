@@ -1,0 +1,185 @@
+ body{
+            font-family: 微软雅黑; 
+            color: gray;
+        }
+    a{
+        font-family: 微软雅黑; 
+        color: gray!important ;
+        text-decoration: none!important;
+        
+    }
+
+    a:hover{
+        color: rgb(176, 145, 106)!important;
+        
+
+    }
+        #class>li{
+            border-bottom: 1px solid white;
+        }
+        #class>li:hover{
+            border-bottom: 1px solid gray;
+        }
+
+     .dropdown-menu {
+         border: 1px solid white;
+         opacity: 0.8;
+         
+     }
+     .dropdown-menu li a{
+         font-weight: bold;
+     }
+
+    img:hover{
+        cursor: pointer;
+    }
+    .carousel-indicators li{
+        width: 20px;
+        height: 20px;
+    }
+    .carousel-indicators .active{
+        width: 20px;
+        height: 20px;
+        background: saddlebrown;
+    }
+
+    .thumbnail{
+             max-width: 300px;
+             margin-left: auto;
+             margin-right: auto;
+             height: 280px;
+             border:solid 0px ;
+         }
+    
+       .thumbnail div{
+           position: relative;
+           width: 216px;
+           margin: 0 auto;
+       }
+      .thumbnail div h5{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 20px;
+            height: 0;
+            position: absolute;
+            bottom: 30px;
+            overflow: hidden;
+            width: 216px;
+            transition: 0.5s;
+      }  
+       .thumbnail div:hover h5{
+            height: 60px;
+            width: 216px;
+            background-color: rgba(0, 0, 0,0.5);
+       }
+
+
+    #content>ul>li{
+     float: left!important;
+     padding-left: 180px;
+     height: 150px;
+    }
+
+    #content{
+         height: 200px;
+         line-height: 30px; 
+         margin:50px 50px 30px 50px;
+         text-align: center;
+    }
+    .footr{
+        background-color: rgb(242, 246, 247);
+        padding-top: 50px;
+    }
+
+    
+
+    .over img{
+        border-bottom: 3px solid white;
+    }
+
+    .over img:hover{
+        border-bottom: 3px solid gray;
+    }
+    .navbar {
+        margin-bottom: 0px!important;
+        
+        
+    }
+    
+    #class>li{
+        width: 150px;
+        text-align: center;
+        font-size: 14px;
+        border-top: solid 1px #D9D9D9;
+    }
+    samp{
+        cursor: auto;
+        display: block;
+        text-align: center;
+    }
+    h5 img{
+        position: absolute;
+        right: 10px;
+        top: 8px;
+    }
+
+.modal-content{
+    position: fixed!important;
+    width: 400px;
+    height: 350px;
+    border-radius: 0;
+    padding: 30px;
+    color: gray;  
+    
+}
+
+.btn{
+    width: 160px;
+    background-color: rgb(176, 145, 106);
+    color: white;
+    font-weight: bold;
+  
+}
+
+.carousel-control.right{
+        width: 30px;
+        height: 70px;
+        background: white;
+        opacity: 0.5;
+        margin: auto;
+}
+.carousel-control.left{
+        width: 30px;
+        height: 70px;
+       background: white;
+       opacity: 0.5;
+        margin: auto;
+}
+
+.rgt{
+    width: 100px;
+    position:fixed;
+    top: 450px;
+    right: 100px; 
+    padding: 10px;
+    line-height: 25px;
+    z-index: 1;
+    /*border: 1px solid gray;*/
+    text-align: center;
+    background-color: white;   
+    
+}
+
+.rgt li:first-child{
+    border-bottom: 1px solid lightgrey;
+    background-color: rgb(176, 145, 106);
+    font-weight: bold;
+}
+#abc{
+    color: white!important;
+}
+
+
+.rgt li:last-child{
+    background-color: rgb(176, 145, 106);
+}

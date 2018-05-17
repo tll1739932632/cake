@@ -1,0 +1,80 @@
+body{
+            font-family: 微软雅黑; 
+            color: gray;
+        }
+    a{
+        font-family: 微软雅黑; 
+        color: gray!important ;
+        text-decoration: none!important;
+        
+    }
+
+    a:hover{
+        color: rgb(176, 145, 106)!important;
+        
+
+    }
+        #class>li{
+            border-bottom: 1px solid white;
+        }
+        #class>li:hover{
+            border-bottom: 1px solid gray;
+        }
+
+     .dropdown-menu {
+         border: 1px solid white;
+         opacity: 0.8;
+         
+     }
+     .dropdown-menu li a{
+         font-weight: bold;
+     }
+
+    img:hover{
+        cursor: pointer;
+    }
+    #content>ul>li{
+     float: left!important;
+     padding-left: 180px;
+     height: 150px;
+    }
+
+    #content{
+         height: 200px;
+         line-height: 30px; 
+         margin:50px 50px 30px 50px;
+         text-align: center;
+    }
+    .footr{
+        background-color: rgb(242, 246, 247);
+        padding-top: 50px;
+    }
+     #class>li{
+        width: 150px;
+        text-align: center;
+        font-size: 14px;
+        border-top: solid 1px #D9D9D9;
+    }
+    samp{
+        cursor: auto;
+        display: block;
+        text-align: center;
+    }
+    /*从这里开始*/
+
+    .title{
+        width: 400px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .car{
+        width: 500px;
+        text-align: left;
+        margin: 100px auto;
+    }
+    .car img{
+        display: block;
+        float: left;
+        margin-right: 50px;
+    }
+    
